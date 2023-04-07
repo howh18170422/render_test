@@ -11,7 +11,7 @@ import plotly.express as px
 dataset = 'https://raw.githubusercontent.com/howh18170422/render_test/main/waste_data.csv'
 
 app = Dash(__name__)
-
+server = app.server
 
 app.layout = html.Div([
     html.H4('Garbage Collected per year'),
